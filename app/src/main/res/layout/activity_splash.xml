@@ -12,7 +12,7 @@
         android:layout_width="@dimen/_150sdp"
         android:layout_height="@dimen/_150sdp"
         android:layout_centerInParent="true"
-        android:src="@drawable/jogjakitaid" />
+        android:src="@drawable/jogjarayaid" />
 
     <ProgressBar
         android:id="@+id/progressBar"

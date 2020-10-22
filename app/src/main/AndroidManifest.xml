@@ -17,10 +17,10 @@
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
-        android:icon="@mipmap/ic_logo_jogjakitaa"
+        android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:roundIcon="@mipmap/ic_logo_jogjakitaa"
+        android:roundIcon="@mipmap/ic_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="m">
@@ -96,7 +96,7 @@
         </service> <!-- Icon pada notif -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/jogjakitaid" /> <!-- warna text notifikasi -->
+            android:resource="@drawable/jogjarayaid" /> <!-- warna text notifikasi -->
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />

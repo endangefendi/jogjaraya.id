@@ -154,10 +154,10 @@ public class FCMService extends FirebaseMessagingService {
 
         Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         Bitmap bigIcon = BitmapFactory.decodeResource(getApplicationContext().getResources(),
-                R.mipmap.ic_logo_jogjakitaa);
+                R.mipmap.ic_logo);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext());
         builder.setContentIntent(pendingIntent);
-        builder.setSmallIcon(R.mipmap.ic_logo_jogjakitaa);
+        builder.setSmallIcon(R.mipmap.ic_logo);
         builder.setContentTitle(title);
         builder.setContentText(Html.fromHtml(message));
 
