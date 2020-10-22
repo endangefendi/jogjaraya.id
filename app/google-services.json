@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "14558845917",
+    "firebase_url": "https://jogjarayaid.firebaseio.com",
+    "project_id": "jogjarayaid",
+    "storage_bucket": "jogjarayaid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14558845917:android:dc0c5336579237b3683434",
+        "android_client_info": {
+          "package_name": "com.jogjaraya.id"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14558845917-3ok0k68r52v0t1cgtl09cfu6onf6huhm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jogjaraya.id",
+            "certificate_hash": "92f65bfa69822a367ea57ed0dd9707e2db1685f5"
+          }
+        },
+        {
+          "client_id": "14558845917-14bh9kv3ehsm7bp93q8siolath1nbdpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW-uqTEa5Ka-rHioWqcDEUmmg9dd44WZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14558845917-14bh9kv3ehsm7bp93q8siolath1nbdpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
