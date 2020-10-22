@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black"
+        android:enabled="true"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/navigation_jelajah"
+        android:icon="@drawable/ic_search_black"
+        android:enabled="true"
+        android:title="@string/jelajah"/>
+
+    <item
+        android:id="@+id/navigation_agenda"
+        android:icon="@drawable/ic_date_black"
+        android:enabled="true"
+        android:title="@string/agenda"/>
+
+    <item
+        android:id="@+id/navigation_ensiklo"
+        android:icon="@drawable/ic_web_black"
+        android:enabled="true"
+        android:title="@string/ensiklo"/>
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/ic_info_outline_black"
+        android:enabled="true"
+        android:title="@string/info"/>
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#1E90FF</color>-->
+    <color name="colorPrimary">#FFCC00</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#A52A2A</color>
+
+    <color name="danger">#FF0000</color>
+
+    <color name="abu_tua">#666666</color>
+    <color name="bg_abu">#cccccc</color>
+</resources>

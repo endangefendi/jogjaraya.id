@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.jogjaraya.id"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //parsing json
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //get data API
+    implementation 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+
+    //untuk foto profile
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
+    // tampilan
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation "com.google.android.material:material:1.3.0-alpha02"
+
+    // glide image loader
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    // Shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+
+    //sdp untuk ukuran responsive
+    implementation 'com.intuit.sdp:sdp-android:1.0.4'
+
+    //firebase
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+
+
+    //lokasi
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+}
