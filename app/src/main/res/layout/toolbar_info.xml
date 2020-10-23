@@ -33,7 +33,7 @@
             android:layout_toLeftOf="@+id/action_search"
             android:layout_toEndOf="@+id/iv_back"
             android:layout_toRightOf="@+id/iv_back"
-            android:text="INFO JOGJAKITA.ID"
+            android:text="INFO JOGJARAYA.ID"
             android:gravity="center"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
             android:textColor="@android:color/white"
