@@ -20,7 +20,7 @@ import java.util.Map;
 public class Constant {
 
     public static class URL{
-        private static final String URL              = "https://jogjakita.id/api/";
+        private static final String URL              = "https://jogjaraya.id/api/";
 
         public static final String open_html        = "<!DOCTYPE html><html><head><style type=\"text/css\">@font-face {font-family: MyFont;src: url(\"file:///android_res/font/helvetica.ttf\")}body {font-family: MyFont;font-size: 14px;text-align: justify; color: #404040; line-height: 26px;}</style></head><body>";
         public static final String close_html =     "</body></html>";
