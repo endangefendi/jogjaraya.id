@@ -23,6 +23,7 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -273,7 +274,9 @@ public class MainActivity extends AppCompatActivity {
                     return Constant.getHeaders();
                 }
             };
-            request.setRetryPolicy(Constant.getDefaultRetryPolicy());
+//            request.setRetryPolicy(Constant.getDefaultRetryPolicy());
+            request.setRetryPolicy(new DefaultRetryPolicy(40000,
+                    DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
             requestQueue.add(request);
         } catch (JSONException e) {
             e.printStackTrace();

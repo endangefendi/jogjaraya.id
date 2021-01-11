@@ -9,4 +9,6 @@
 
     <color name="abu_tua">#666666</color>
     <color name="bg_abu">#cccccc</color>
+    <color name="transparan">#0FFF</color>
+
 </resources>

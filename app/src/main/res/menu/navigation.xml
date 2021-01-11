@@ -4,7 +4,7 @@
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black"
         android:enabled="true"
-        android:title="@string/home"/>
+        android:title="@string/beranda"/>
 
     <item
         android:id="@+id/navigation_jelajah"
@@ -13,16 +13,16 @@
         android:title="@string/jelajah"/>
 
     <item
-        android:id="@+id/navigation_agenda"
-        android:icon="@drawable/ic_date_black"
-        android:enabled="true"
-        android:title="@string/agenda"/>
-
-    <item
         android:id="@+id/navigation_ensiklo"
         android:icon="@drawable/ic_web_black"
         android:enabled="true"
         android:title="@string/ensiklo"/>
+
+    <item
+        android:id="@+id/navigation_agenda"
+        android:icon="@drawable/ic_date_black"
+        android:enabled="true"
+        android:title="@string/agenda"/>
 
     <item
         android:id="@+id/navigation_info"
